@@ -1,0 +1,17 @@
+{
+  "name": "Address_2nd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ehugo <mihaivos@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^5.4.0"
+  },
+  "dependencies": {
+    "superstatic": "^7.0.1"
+  },
+  "scripts": {
+    "start": "superstatic src --port 3001",
+    "cy:open": "yarn start & cypress open"
+  }
+}
